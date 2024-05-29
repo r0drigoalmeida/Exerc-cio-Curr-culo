@@ -1,0 +1,198 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    width: 100%;
+    background-color: #a70000;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;  
+}
+.nav-bar li a { /*texto*/
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none; /*remove hiperlink*/
+}
+    .nav-bar li a:hover {
+        background-color: #006100;
+}
+body{
+    display: flex;
+    font-family: 'ARIAL', sans-serif;
+    background-color: #dadada;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    width: 100%;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 0px;
+    margin: 0px 0;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
+}
+section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #a70000;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+.overlay-card_00 { /*card referente a logomarca no topo da página principal*/
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0); /* Branco com 80% de opacidade */
+    text-align: center;
+    font-size: 15px
+}
+.overlay-card { /*card da página inicial "experimente"*/
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    padding: 40px;
+    background-color: rgba(224, 223, 218, 0.603); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    text-align: left;
+    border-radius: 10px;
+    font-size: 15px
+}/*para tabela do cardápio:v.col-img define o estilo de um contêiner que 
+alinha seu conteúdo à direita, remove margens e preenchimentos, define uma largura
+ (necessita de correção), e impede quebra de linha dentro do conteúdo.
+.col-img img garante que as imagens dentro desse contêiner mantenham 
+suas proporções e não excedam a largura do contêiner, são exibidas 
+como blocos para remover espaços extras abaixo e sem margens externas.*/
+.col-img {
+    text-align: right; 
+    padding: 0; 
+    margin: 0; 
+    width: 100; 
+    white-space: nowrap; 
+}
+  .col-img img {
+    max-width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0; 
+}
+  td, th {
+    padding: 10px; 
+    margin: 70px; 
+    font-size: 20px; 
+    font-family: 'Playfair Display', serif;
+}
+   /* PARA A PARTE SOBRE NOS*/
+   body.section-2, ul {
+    margin: 0;
+    padding: 0;
+}
+   body.section-2{
+    display: flex;
+    font-family: 'ARIAL', sans-serif;
+    background-color: #e2e2e2;
+    color: #000000;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+   .overlay-card3 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 5px;
+    background-color: rgba(222, 221, 221, 0.832); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: left;
+    border-radius: 10px;
+    font-size: 13px
+}
+/*contato*/
+.container4 {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+    .overlay-card4 {
+        position: absolute;
+        top: 40%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+        padding: 5px;
+        background-color: rgba(222, 221, 221, 0.603); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+        border-radius: 10px;
+        font-size: 13px
+}
+.container5 {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+    .overlay-card5 {
+        position: absolute;
+        top: 130%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+        padding: 5px;
+        background-color: rgba(222, 221, 221, 0.603); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        text-align: center;
+        border-radius: 10px;
+        font-size: 13px
+}
+.container6 {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+    .overlay-card6 {
+        position: absolute;
+        top: 64%;
+        left: 130%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+        padding: 5px;
+        background-color: rgba(222, 221, 221, 0.603); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        text-align: center;
+        border-radius: 10px;
+        font-size: 13px
+}
